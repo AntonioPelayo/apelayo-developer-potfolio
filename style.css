@@ -1,54 +1,68 @@
 *, html, body {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 header {
-    background: rgb(56, 104, 194);
-    height: 600px;
-    text-align: center;
-}
-
-header  h1 {
-    font-size: 120px;
-    padding-top: 100px;
+  background-image: url("images/background.jpeg");
+  height: 750px;
 }
 
 nav {
-    background-color: rgb(105, 105, 105);
-    height: auto;
+  background: rgb(76, 92, 104);
+  height: auto;
+}
+
+nav h1 {
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-left: 5%;
+  padding-top: 10px;
 }
 
 nav ul {
-    text-align: center;
+  float: right;
+  padding-right: 5%;
+  padding-top: 10px;
 }
 
 nav li {
-    display: inline-block;
-    font-size: 25px;
-    padding: 15px;
+  display: inline-block;
+  font-size: 25px;
+  padding-top: 0px;
+  padding-left: 50px;
 }
 
 nav a {
-    color: black;
-    text-decoration: none;
-    padding: 7px;
+  color: rgb(197, 195, 198);
+  text-decoration: none;
+}
+
+#logo {
+  padding-top: 250px;
+  padding-bottom: 250px;
+  text-align: center;
+}
+
+.float {
+  text-align: center;
+  padding-top: 25px;
 }
 
 @media (max-width: 600px) {
-    nav ul {
-        text-align: center;
-    }
+  nav ul {
+    text-align: center;
+  }
 
-    nav li {
-        display: block;
-        width: 100%;
-        padding: 5px;
-    }
+  nav li {
+    display: block;
+    width: 100%;
+    padding: 5px;
+  }
 
-    nav a {
-        display: block;
-        width: 100%;
-    }
+  nav a {
+    display: block;
+    width: 100%;
+  }
 }

@@ -4,14 +4,24 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(220, 220, 221);
+  height: 1250px;
+}
+
 header {
   background-image: url("images/background.jpeg");
-  height: 750px;
+  height: 600px;
 }
 
 nav {
-  background: rgb(76, 92, 104);
-  height: auto;
+  box-shadow: 5px 5px 5px 5px rgb(220, 220, 221);
+  background: rgb(70, 73, 76);
+  height: 50px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 nav h1 {
@@ -39,15 +49,42 @@ nav a {
   text-decoration: none;
 }
 
+.item {
+  background-color: white;
+  display: inline-block;
+  width: 33%;
+  height: 350px;
+  padding: 2px;
+}
+
+.item-icon {
+  background-size: cover;
+  color: white;
+  height: 150px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.float {
+  color: rgb(197, 195, 198);
+  text-align: center;
+  padding-top: 75px;
+}
+
 #logo {
+  color: rgb(220, 220, 221);
+  font-size: 64px;
   padding-top: 250px;
   padding-bottom: 250px;
   text-align: center;
 }
 
-.float {
-  text-align: center;
-  padding-top: 25px;
+#projects {
+  background-color: rgba(0,0,0,0);
+  height: 350px;
+  width: 75%;
+  margin: auto;
+  margin-top: -50px;
 }
 
 @media (max-width: 600px) {

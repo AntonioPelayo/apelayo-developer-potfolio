@@ -1,0 +1,33 @@
+#projects {
+  background-color: rgba(0,0,0,0);
+  display: block;
+  height: 500px;
+  width: 75%;
+  margin: auto;
+  margin-top: -50px;
+  text-align: center;
+}
+
+.item {
+  background-color: white;
+  display: inline-block;
+  height: 100%;
+  width: 32%;
+  margin: auto;
+  padding: 2px;
+  vertical-align: top;
+}
+
+.item p {
+  padding: 15px;
+  height: 60%;
+  text-align: left;
+}
+
+.item-icon {
+  background-size: cover;
+  color: white;
+  height: 40%;
+  padding-top: 50px;
+  text-align: center;
+}

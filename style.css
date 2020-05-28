@@ -49,22 +49,6 @@ nav a {
   text-decoration: none;
 }
 
-.item {
-  background-color: white;
-  display: inline-block;
-  width: 33%;
-  height: 350px;
-  padding: 2px;
-}
-
-.item-icon {
-  background-size: cover;
-  color: white;
-  height: 150px;
-  padding-top: 50px;
-  text-align: center;
-}
-
 .float {
   color: rgb(197, 195, 198);
   text-align: center;
@@ -77,14 +61,6 @@ nav a {
   padding-top: 250px;
   padding-bottom: 250px;
   text-align: center;
-}
-
-#projects {
-  background-color: rgba(0,0,0,0);
-  height: 350px;
-  width: 75%;
-  margin: auto;
-  margin-top: -50px;
 }
 
 @media (max-width: 600px) {
